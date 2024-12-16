@@ -7,7 +7,7 @@
           <!--            <img src="@/assets/companylogo.svg" alt="logo" class="company-logo">-->
           <!--          </router-link>-->
           <h2>
-            Enter Otp
+            Enter Token
           </h2>
         </div>
         <div class="form">
@@ -16,7 +16,7 @@
               <input type="email" placeholder="Enter Email" v-model="email"  name="email" required />
             </div>
             <div class="form-group">
-              <input type="password" placeholder="Enter Otp" v-model="password" name="password" required />
+              <input type="text" placeholder="Enter Token" v-model="password" name="token" required />
             </div>
 
 <!--            <div class="form-group-2">-->
